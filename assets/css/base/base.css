@@ -1,0 +1,18 @@
+@import url('_variables.css');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: var(--background-color);
+}
+
+#camera{
+    display: flex;
+
+    perspective-origin: 50% 50%;
+    perspective: 1000px;
+}
